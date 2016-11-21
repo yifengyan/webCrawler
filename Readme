@@ -1,0 +1,19 @@
+We use JAVA to write a program for webcrawler where all the pages in the fakebook account are scanned to get five secret flags.
+We take use POST and GET method to login into the fakebook account and once we login we use the GET method to retrieve all the data from the website.
+We analyse the data and find out the useful links and the secret flags.We will analyse the links, if the links exist we drop them if not we restore them in the stack based on whether its analysed before or not.
+
+Challenges Faced:
+1) Logging in was always a problem and we failed many times.
+2) Makefile was different between JAVA and Python
+3) Debugging
+4) Efficiency
+
+Positive test cases:
+./webcrawler 001684781 OWI1EENJ
+./webcrawler 001629915 29G0V7XW
+
+Negative test cases:
+./webcrawler 001684781
+./webcrawler 001629915
+./webcrawler 001629915 	OWI1EENJ
+./webcrawler 001684781 29G0V7XW
