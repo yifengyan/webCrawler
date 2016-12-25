@@ -8,12 +8,3 @@ Challenges Faced:
 3) Debugging
 4) Efficiency
 
-Positive test cases:
-./webcrawler 001684781 OWI1EENJ
-./webcrawler 001629915 29G0V7XW
-
-Negative test cases:
-./webcrawler 001684781
-./webcrawler 001629915
-./webcrawler 001629915 	OWI1EENJ
-./webcrawler 001684781 29G0V7XW
