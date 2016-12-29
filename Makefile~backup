@@ -1,5 +1,0 @@
-all: webcrawler.class
-webcrawler.class: webcrawler.java
-	javac -d . -classpath . webcrawler.java
-clean:
-	rm -f *.class 
